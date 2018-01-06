@@ -1,0 +1,148 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #363635;
+  color: #363635;
+}
+
+input {
+  font-size: 16px;
+  margin-top: 2px;
+}
+
+
+.header {
+  width: 100%;
+  padding: 5% 0 5% 0;
+  text-align: center;
+  font-size: 32px;
+}
+
+.header-panel-left {
+  background-color: #B0FE76;
+  border-width: 1px;
+  border-style: solid;
+  width: 100%;
+  height: 80px;
+  margin-top: 2.5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  min-width: 500px;
+}
+.channelContainer {
+  border-style: solid;
+  border-width: 1px;
+  height: 80px;
+  width: 100%;
+  
+  background-color: #B0FE76;
+  min-width: 500px;
+}
+
+.channelInfo {
+  width: 100%;
+  height: 100%;
+  margin-top: 2px;
+}
+
+a {
+  overflow: hidden;
+  width: 80%;
+}
+
+#cLink {
+  color: #363635;
+  width: 80%;
+}
+
+#cTitle {
+  margin-bottom: 5px;
+}
+  
+  
+
+.removeBtn {
+  background-color: transparent;
+  color: #363635;
+  font-size: 12px;
+  width: 100px;
+  float: right;
+  margin: 2px;
+}
+
+.streamList {
+  border-style: solid;
+  border-width: 1px;
+  height: 20%;
+  max-width: 90%;
+  margin: 5px auto auto auto;
+}
+.streamImg {
+  float: left;
+  height: 100%;
+  margin-right: 5px;
+  
+}
+#display {
+  width: 60%;
+  height: 100%;
+  margin: 2.5% auto auto auto;
+  border-style: solid;
+}
+
+.display_btns {
+  margin: auto;
+  display: block;
+  padding: 4px;
+  
+}
+
+button {
+  background-color: #B0FE76;
+  border: 1px solid;
+  color: #363635;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 23%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #81E979
+}
+
+.focus {
+  background-color: #81E979;
+  color: #595A4A;
+}
+
+.hidden{
+  display: none;
+}
+
+.online{
+}
+
+.offline {
+  text-align: center;
+  
+}
+
+#cInfo {
+  display: inline-block;
+  
+}
+
+#onlineStatus {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  margin-top: 10%;
+}
+
+.textbtm {
+}
